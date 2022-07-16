@@ -16,5 +16,6 @@ public class DialogueOption
 public class DialogueTree
 {
     public string[] characterDialogue;
+    public string outcome;
     public DialogueOption[] dialogueOptions;
 }

@@ -1,11 +1,13 @@
 {
     "characterDialogue": ["hello", "I am Man One"],
+    "outcome": null,
     "dialogueOptions": [
         {
             "playerResponse": "hi Man One",
             "karma": 0,
             "subTree": {
                 "characterDialogue": ["kbye"],
+                "outcome": "man one likes u",
                 "dialogueOptions": []
             }
         },
@@ -14,6 +16,7 @@
             "karma": 0,
             "subTree": {
                 "characterDialogue": ["wow okay", "fuck you"],
+                "outcome": "man one hates u",
                 "dialogueOptions": []
             }
         }
