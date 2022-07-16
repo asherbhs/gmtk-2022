@@ -1,21 +1,82 @@
 {
-    "characterDialogue": ["Greetings fortune teller.", "I need your advice. My friend - she has not spoken to me in months!", "I am at a loss for what to do, why won't she speak to me?"],
-    "dialogueOptions": [
+    "forest": [
         {
-            "playerResponse": "You need to reflect on your own actions first.",
-            "karma": 0,
-            "subTree": {
-                "characterDialogue": ["bye"],
-                "dialogueOptions": []
-            }
+            "characterDialogue": ["hello", "I am Woman One"],
+            "outcome": null,
+            "threeDice": {
+                "animal": "frog",
+                "weather": "lightning",
+                "rune": "connection"
+            },
+            "dialogueOptions": [
+                {
+                    "playerResponse": "hi Woman One",
+                    "karma": 0,
+                    "subTree": {
+                        "characterDialogue": ["kbye"],
+                        "outcome": "woman one likes u",
+                        "threeDice": {
+                            "animal": "frog",
+                            "weather": "lightning",
+                            "rune": "connection"
+                        },
+                        "dialogueOptions": []
+                    }
+                },
+                {
+                    "playerResponse": "u suck",
+                    "karma": 0,
+                    "subTree": {
+                        "characterDialogue": ["wow okay", "fuck you"],
+                        "outcome": "woman one hates u",
+                        "threeDice": {
+                            "animal": "frog",
+                            "weather": "lightning",
+                            "rune": "connection"
+                        },
+                        "dialogueOptions": []
+                    }
+                }
+            ]
         },
         {
-            "playerResponse": "sup",
-            "karma": 0,
-            "subTree": {
-                "characterDialogue": ["bye"],
-                "dialogueOptions": []
-            }
+            "characterDialogue": ["okay this is a second tree in the forest"],
+            "outcome": null,
+            "threeDice": {
+                "animal": "bird",
+                "weather": "sun",
+                "rune": "failure"
+            },
+            "dialogueOptions": [
+                {
+                    "playerResponse": "thanks I hate it",
+                    "karma": 0,
+                    "subTree": {
+                        "characterDialogue": ["that is respecable"],
+                        "outcome": "you agree",
+                        "threeDice": {
+                            "animal": "bird",
+                            "weather": "sun",
+                            "rune": "failure"
+                        },
+                        "dialogueOptions": []
+                    }
+                },
+                {
+                    "playerResponse": "oooo very cool",
+                    "karma": 0,
+                    "subTree": {
+                        "characterDialogue": ["indeed"],
+                        "outcome": "you agree positively",
+                        "threeDice": {
+                            "animal": "bird",
+                            "weather": "sun",
+                            "rune": "failure"
+                        },
+                        "dialogueOptions": []
+                    }
+                }
+            ]
         }
     ]
 }

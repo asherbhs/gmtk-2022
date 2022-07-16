@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    private DialogueForest currentDialogueForest;
+    private int currentDialogueTreeIndex;
     private DialogueTree currentDialogueTree;
 
     // all linked in editor
@@ -11,13 +13,11 @@ public class GameManager : MonoBehaviour
     public DialogueBox dialogueBox;
     public DialogueButton[] dialogueButtons;
 
-    void Awake()
-    {
-    }
-
     void Start() 
     {
-        currentDialogueTree = character.CurrentCharacterData().dialogueTree;
+        currentDialogueForest = character.CurrentCharacterData().dialogueForest;
+        currentDialogueTreeIndex = 0;
+        currentDialogueTree = currentDialogueForest.forest[0]; 
         ShowCharacterDialogue();
     }
 
@@ -31,6 +31,33 @@ public class GameManager : MonoBehaviour
         dialogueBox.SetCharacterName(character.CurrentCharacterData().name);
         dialogueBox.lines = currentDialogueTree.characterDialogue;
         dialogueBox.StartDialogue();
+    }
+
+    public void OnDialogueDone()
+    {
+        // if options, show buttons
+        if (currentDialogueTree.dialogueOptions.Length > 0) { ShowButtons(); }
+        // else if more trees, next tree
+        else if (currentDialogueTreeIndex < currentDialogueForest.forest.Length - 1)
+        {
+            currentDialogueTreeIndex++;
+            currentDialogueTree = 
+                currentDialogueForest.forest[currentDialogueTreeIndex];
+            ShowCharacterDialogue();
+        }
+        // else if more characters, next character
+        else
+        {
+            character.NextCharacter();
+            currentDialogueTreeIndex = 0;
+            currentDialogueForest = 
+                character.CurrentCharacterData().dialogueForest;
+            currentDialogueTree = 
+                currentDialogueForest.forest[currentDialogueTreeIndex];
+            ShowCharacterDialogue();
+        }
+
+        // else end
     }
 
     public void ShowButtons()
