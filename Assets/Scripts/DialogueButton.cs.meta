@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/DialogueButton.cs.meta
 guid: 04162c37d4b747b3cb2c547eaf8e3494
+========
+guid: 5881230207613fe03bb2d72e5e634963
+>>>>>>>> 98a26fd5bfedee32f89b81150ee45cdf3600fa64:Assets/Scripts/DialogueBox.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
