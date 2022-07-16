@@ -1,0 +1,14 @@
+{
+    "allCharacterInfo": [
+        {
+            "name": "man1",
+            "spritePath": "Images/man1",
+            "dialoguePath": "Dialogue/man1-dialogue"
+        },
+        {
+            "name": "woman1",
+            "spritePath": "Images/woman1",
+            "dialoguePath": "Dialogue/woman1-dialogue"
+        }
+    ]
+}
