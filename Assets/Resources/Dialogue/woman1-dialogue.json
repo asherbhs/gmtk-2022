@@ -1,6 +1,14 @@
 {
-    "characterDialogue": ["hello", "I am woman1"],
+    "characterDialogue": ["Greetings fortune teller.", "I need your advice. My friend - she has not spoken to me in months!", "I am at a loss for what to do, why won't she speak to me?"],
     "dialogueOptions": [
+        {
+            "playerResponse": "You need to reflect on your own actions first.",
+            "karma": 0,
+            "subTree": {
+                "characterDialogue": ["bye"],
+                "dialogueOptions": []
+            }
+        },
         {
             "playerResponse": "sup",
             "karma": 0,
