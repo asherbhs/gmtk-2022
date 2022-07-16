@@ -1,6 +1,11 @@
 {
     "characterDialogue": ["hello", "I am Man One"],
     "outcome": null,
+    "threeDice": {
+        "animal": "frog",
+        "weather": "lightning",
+        "rune": "connection"
+    },
     "dialogueOptions": [
         {
             "playerResponse": "hi Man One",
@@ -8,6 +13,11 @@
             "subTree": {
                 "characterDialogue": ["kbye"],
                 "outcome": "man one likes u",
+                "threeDice": {
+                    "animal": "frog",
+                    "weather": "lightning",
+                    "rune": "connection"
+                },
                 "dialogueOptions": []
             }
         },
@@ -17,6 +27,11 @@
             "subTree": {
                 "characterDialogue": ["wow okay", "fuck you"],
                 "outcome": "man one hates u",
+                "threeDice": {
+                    "animal": "frog",
+                    "weather": "lightning",
+                    "rune": "connection"
+                },
                 "dialogueOptions": []
             }
         }
