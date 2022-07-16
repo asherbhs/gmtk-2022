@@ -63,7 +63,7 @@ public class DialogueBox : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
-            gameManager.ShowButtons();
+            gameManager.OnDialogueDone();
         }
     }
 }

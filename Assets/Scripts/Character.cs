@@ -22,13 +22,13 @@ public class CharacterData
 {
     public string name;
     public Sprite sprite;
-    public DialogueTree dialogueTree;
+    public DialogueForest dialogueForest;
 
     public CharacterData(CharacterInfo info)
     {
         name = info.name;
         sprite = Resources.Load<Sprite>(info.spritePath);
-        dialogueTree = JsonUtility.FromJson<DialogueTree>
+        dialogueForest = JsonUtility.FromJson<DialogueForest>
         (
             Resources.Load(info.dialoguePath).ToString()
         );
@@ -63,7 +63,7 @@ public class Character : MonoBehaviour
         NextCharacter();
     }
 
-    void NextCharacter()
+    public void NextCharacter()
     {
         characterIndex++;
         spriteRenderer.sprite = allCharacterData[characterIndex].sprite;

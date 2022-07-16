@@ -1,39 +1,82 @@
 {
-    "characterDialogue": ["hello", "I am Man One"],
-    "outcome": null,
-    "threeDice": {
-        "animal": "frog",
-        "weather": "lightning",
-        "rune": "connection"
-    },
-    "dialogueOptions": [
+    "forest": [
         {
-            "playerResponse": "hi Man One",
-            "karma": 0,
-            "subTree": {
-                "characterDialogue": ["kbye"],
-                "outcome": "man one likes u",
-                "threeDice": {
-                    "animal": "frog",
-                    "weather": "lightning",
-                    "rune": "connection"
+            "characterDialogue": ["hello", "I am Man One"],
+            "outcome": null,
+            "threeDice": {
+                "animal": "frog",
+                "weather": "lightning",
+                "rune": "connection"
+            },
+            "dialogueOptions": [
+                {
+                    "playerResponse": "hi Man One",
+                    "karma": 0,
+                    "subTree": {
+                        "characterDialogue": ["kbye"],
+                        "outcome": "man one likes u",
+                        "threeDice": {
+                            "animal": "frog",
+                            "weather": "lightning",
+                            "rune": "connection"
+                        },
+                        "dialogueOptions": []
+                    }
                 },
-                "dialogueOptions": []
-            }
+                {
+                    "playerResponse": "u suck",
+                    "karma": 0,
+                    "subTree": {
+                        "characterDialogue": ["wow okay", "fuck you"],
+                        "outcome": "man one hates u",
+                        "threeDice": {
+                            "animal": "frog",
+                            "weather": "lightning",
+                            "rune": "connection"
+                        },
+                        "dialogueOptions": []
+                    }
+                }
+            ]
         },
         {
-            "playerResponse": "u suck",
-            "karma": 0,
-            "subTree": {
-                "characterDialogue": ["wow okay", "fuck you"],
-                "outcome": "man one hates u",
-                "threeDice": {
-                    "animal": "frog",
-                    "weather": "lightning",
-                    "rune": "connection"
+            "characterDialogue": ["okay this is a second tree in the forest"],
+            "outcome": null,
+            "threeDice": {
+                "animal": "bird",
+                "weather": "sun",
+                "rune": "failure"
+            },
+            "dialogueOptions": [
+                {
+                    "playerResponse": "thanks I hate it",
+                    "karma": 0,
+                    "subTree": {
+                        "characterDialogue": ["that is respecable"],
+                        "outcome": "you agree",
+                        "threeDice": {
+                            "animal": "bird",
+                            "weather": "sun",
+                            "rune": "failure"
+                        },
+                        "dialogueOptions": []
+                    }
                 },
-                "dialogueOptions": []
-            }
+                {
+                    "playerResponse": "oooo very cool",
+                    "karma": 0,
+                    "subTree": {
+                        "characterDialogue": ["indeed"],
+                        "outcome": "you agree positively",
+                        "threeDice": {
+                            "animal": "bird",
+                            "weather": "sun",
+                            "rune": "failure"
+                        },
+                        "dialogueOptions": []
+                    }
+                }
+            ]
         }
     ]
 }

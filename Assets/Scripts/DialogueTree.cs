@@ -31,3 +31,9 @@ public class DialogueTree
     public ThreeDice threeDice;
     public DialogueOption[] dialogueOptions;
 }
+
+[Serializable]
+public class DialogueForest
+{
+    public DialogueTree[] forest;
+}
