@@ -1,11 +1,19 @@
 {
-    "characterDialogue": ["hello", "I am man1"],
+    "characterDialogue": ["hello", "I am Man One"],
     "dialogueOptions": [
         {
-            "playerResponse": "sup",
+            "playerResponse": "hi Man One",
             "karma": 0,
             "subTree": {
-                "characterDialogue": ["bye"],
+                "characterDialogue": ["kbye"],
+                "dialogueOptions": []
+            }
+        },
+        {
+            "playerResponse": "u suck",
+            "karma": 0,
+            "subTree": {
+                "characterDialogue": ["wow okay", "fuck you"],
                 "dialogueOptions": []
             }
         }

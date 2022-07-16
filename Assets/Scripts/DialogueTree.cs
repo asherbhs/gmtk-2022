@@ -5,7 +5,7 @@ using UnityEngine;
 using System;
 
 [Serializable]
-public struct DialogueOption
+public class DialogueOption
 {
     public string playerResponse;
     public int karma;
@@ -13,7 +13,7 @@ public struct DialogueOption
 }
 
 [Serializable]
-public struct DialogueTree
+public class DialogueTree
 {
     public string[] characterDialogue;
     public DialogueOption[] dialogueOptions;
