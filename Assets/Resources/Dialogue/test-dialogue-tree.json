@@ -1,11 +1,11 @@
 {
-    "customerDialogue": "hello",
+    "characterDialogue": "hello",
     "dialogueOptions": [
         {
             "playerResponse": "sup",
             "karma": 0,
             "subTree": {
-                "customerDialogue": "bye",
+                "characterDialogue": "bye",
                 "dialogueOptions": []
             }
         }
