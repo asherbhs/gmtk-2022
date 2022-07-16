@@ -423,7 +423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 2082841422}
-  dialogueBox: {fileID: 0}
+  dialogueBox: {fileID: 1640491593}
   dialogueButtons:
   - {fileID: 1970947289}
   - {fileID: 1575771414}
@@ -1015,7 +1015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 604400058}
-  textMesh: {fileID: 0}
+  textMesh: {fileID: 1372860082}
   optionIndex: 2
 --- !u!1 &1372860080
 GameObject:
@@ -1300,7 +1300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 604400058}
-  textMesh: {fileID: 0}
+  textMesh: {fileID: 1242479490}
   optionIndex: 3
 --- !u!1 &1514607551
 GameObject:
@@ -1565,7 +1565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 604400058}
-  textMesh: {fileID: 0}
+  textMesh: {fileID: 511113097}
   optionIndex: 1
 --- !u!1 &1640491588
 GameObject:
@@ -1658,10 +1658,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5881230207613fe03bb2d72e5e634963, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textComponent: {fileID: 0}
-  nameComponent: {fileID: 0}
+  textComponent: {fileID: 136498765}
+  nameComponent: {fileID: 933644271}
   lines: []
   textSpeed: 0
+  gameManager: {fileID: 604400058}
 --- !u!1 &1799752196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2029,7 +2030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 604400058}
-  textMesh: {fileID: 0}
+  textMesh: {fileID: 1952292648}
   optionIndex: 0
 --- !u!1 &2082841421
 GameObject:
