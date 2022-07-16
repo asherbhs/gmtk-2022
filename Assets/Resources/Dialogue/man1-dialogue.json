@@ -1,5 +1,5 @@
 {
-    "characterDialogue": ["hello"],
+    "characterDialogue": ["hello", "I am man1"],
     "dialogueOptions": [
         {
             "playerResponse": "sup",
