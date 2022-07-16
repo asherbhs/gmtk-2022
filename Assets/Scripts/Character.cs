@@ -68,4 +68,9 @@ public class Character : MonoBehaviour
         characterIndex++;
         spriteRenderer.sprite = allCharacterData[characterIndex].sprite;
     }
+
+    public CharacterData CurrentCharacterData()
+    {
+        return allCharacterData[characterIndex];
+    }
 }
