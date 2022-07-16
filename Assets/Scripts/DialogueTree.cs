@@ -15,6 +15,6 @@ public struct DialogueOption
 [Serializable]
 public struct DialogueTree
 {
-    public string customerDialogue;
+    public string characterDialogue;
     public DialogueOption[] dialogueOptions;
 }
