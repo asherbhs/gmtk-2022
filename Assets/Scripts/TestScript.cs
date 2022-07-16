@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class TestScript : MonoBehaviour
 {
-    void Start()
+    void ExampleDialogueLoading()
     {
-        
         DialogueTree dt = JsonUtility.FromJson<DialogueTree>
         (
             Resources.Load("Dialogue/test-dialogue-tree").ToString()
