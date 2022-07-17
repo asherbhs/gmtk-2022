@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -21,9 +21,22 @@ public class GameManager : MonoBehaviour
     public DialogueButton[] dialogueButtons;
     public GameObject diceShit;
     public Sprite[] diceSprites;
+    private static GameManager managerInstance;
 
     void Start() 
     {
+        DontDestroyOnLoad(this);
+
+        if (managerInstance == null)
+        {
+            managerInstance = this;
+        }
+        else
+        {
+            DestroyObject(gameObject);
+        }
+
+
         dialogueBox.enabled = true;
         // foreach (DialogueButton b in dialogueButtons) { b.enabled = false; }
         foreach (DialogueButton b in dialogueButtons)
@@ -63,11 +76,13 @@ public class GameManager : MonoBehaviour
     }
 
     public void OnDialogueDone()
-    {
+    {   
+        // if outcome scene, change scene
         // if options, wait for roll
         if (currentDialogueTree.dialogueOptions.Length > 0)
         {
             dialogueBox.ClearText();
+            dialogueBox.SetCharacterName("You");
             dialogueBox.enabled = false;
 
             diceShit.gameObject.SetActive(true);
@@ -145,44 +160,26 @@ public class GameManager : MonoBehaviour
 
     Sprite DiceTagToSprite(string tag) { switch (tag)
     {
-        case "cat":
-            return diceSprites[0];
-        case "wolf":
-            return diceSprites[1];
-        case "fish":
-            return diceSprites[2];
-        case "rabbit":
-            return diceSprites[3];
-        case "bird":
-            return diceSprites[4];
-        case "frog":
-            return diceSprites[5];
+        case "cat": return diceSprites[0];
+        case "wolf": return diceSprites[1];
+        case "fish": return diceSprites[2];
+        case "rabbit": return diceSprites[3];
+        case "bird": return diceSprites[4];
+        case "frog": return diceSprites[5];
 
-        case "wind":
-            return diceSprites[6];
-        case "lightning":
-            return diceSprites[7];
-        case "sun":
-            return diceSprites[8];
-        case "snow":
-            return diceSprites[9];
-        case "rain":
-            return diceSprites[10];
-        case "cloud":
-            return diceSprites[11];
+        case "wind": return diceSprites[6];
+        case "lightning": return diceSprites[7];
+        case "sun": return diceSprites[8];
+        case "snow": return diceSprites[9];
+        case "rain": return diceSprites[10];
+        case "cloud": return diceSprites[11];
 
-        case "peorth":
-            return diceSprites[12];
-        case "aangor":
-            return diceSprites[13];
-        case "ehwan":
-            return diceSprites[14];
-        case "isa":
-            return diceSprites[15];
-        case "akhon":
-            return diceSprites[16];
-        case "fo-un":
-            return diceSprites[17];
+        case "peorth": return diceSprites[12];
+        case "aangor": return diceSprites[13];
+        case "ehwan": return diceSprites[14];
+        case "isa": return diceSprites[15];
+        case "akhon": return diceSprites[16];
+        case "fo-un": return diceSprites[17];
         default: return null;
     }}
 }

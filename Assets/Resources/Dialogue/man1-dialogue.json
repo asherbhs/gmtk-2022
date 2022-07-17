@@ -1,16 +1,20 @@
 {
     "forest": [
         {
-            "characterDialogue": ["hello", "I am Man One"],
+            "characterDialogue": [
+                "Greetings Fortune-Teller",
+                "I must know, how bountiful shall my coming harvest be?",
+                "I fear another poor showing shall see my farm reclaimed."
+            ],
             "outcome": null,
             "threeDice": {
-                "animal": "cat",
-                "weather": "lightning",
+                "animal": "fish",
+                "weather": "sun",
                 "rune": "aangor"
             },
             "dialogueOptions": [
                 {
-                    "playerResponse": "hi Man One",
+                    "playerResponse": "Your harvest will fail, but if you allow ",
                     "karma": 0,
                     "subTree": {
                         "characterDialogue": ["kbye"],
