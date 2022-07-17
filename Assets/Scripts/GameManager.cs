@@ -146,44 +146,26 @@ public class GameManager : MonoBehaviour
 
     Sprite DiceTagToSprite(string tag) { switch (tag)
     {
-        case "cat":
-            return diceSprites[0];
-        case "wolf":
-            return diceSprites[1];
-        case "fish":
-            return diceSprites[2];
-        case "rabbit":
-            return diceSprites[3];
-        case "bird":
-            return diceSprites[4];
-        case "frog":
-            return diceSprites[5];
+        case "cat": return diceSprites[0];
+        case "wolf": return diceSprites[1];
+        case "fish": return diceSprites[2];
+        case "rabbit": return diceSprites[3];
+        case "bird": return diceSprites[4];
+        case "frog": return diceSprites[5];
 
-        case "wind":
-            return diceSprites[6];
-        case "lightning":
-            return diceSprites[7];
-        case "sun":
-            return diceSprites[8];
-        case "snow":
-            return diceSprites[9];
-        case "rain":
-            return diceSprites[10];
-        case "cloud":
-            return diceSprites[11];
+        case "wind": return diceSprites[6];
+        case "lightning": return diceSprites[7];
+        case "sun": return diceSprites[8];
+        case "snow": return diceSprites[9];
+        case "rain": return diceSprites[10];
+        case "cloud": return diceSprites[11];
 
-        case "peorth":
-            return diceSprites[12];
-        case "aangor":
-            return diceSprites[13];
-        case "ehwan":
-            return diceSprites[14];
-        case "isa":
-            return diceSprites[15];
-        case "akhon":
-            return diceSprites[16];
-        case "fo-un":
-            return diceSprites[17];
+        case "peorth": return diceSprites[12];
+        case "aangor": return diceSprites[13];
+        case "ehwan": return diceSprites[14];
+        case "isa": return diceSprites[15];
+        case "akhon": return diceSprites[16];
+        case "fo-un": return diceSprites[17];
         default: return null;
     }}
 }
