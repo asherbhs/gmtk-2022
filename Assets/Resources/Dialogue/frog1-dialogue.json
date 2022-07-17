@@ -11,16 +11,30 @@
             "dialogueOptions": [
                 {
                     "playerResponse": "Welcome, oh Lord.",
-                    "karma": 1000000,
+                    "karma": 0,
                     "subTree": {
                         "characterDialogue": ["Ribbit crooooooooooak"],
-                        "outcome": "You are blessed by the Godly power of the frog. Your fortunes are more accurate than ever, and your coin purse grows fat.",
+                        "outcome": null,
                         "threeDice": {
                             "animal": "frog",
                             "weather": "lightning",
                             "rune": "connection"
                         },
-                        "dialogueOptions": []
+                        "dialogueOptions": [
+                            {
+                                "playerResponse": "Blessings be upon us all.",
+                                "karma": 0,
+                                "subTree": {
+                                    "characterDialogue": ["Creeeeeeeeeeeeeek"],
+                                    "outcome": "You are blessed by the Godly power of the frog. Your fortunes are more accurate than ever, and your coin purse grows fat.",
+                                    "threeDice": {
+                                        "animal": "frog",
+                                        "weather": "lightning",
+                                        "rune": "connection"
+                                    },
+                                    "dialogueOptions": []
+                                }
+                            }]
                     }
                 },
                 {
@@ -28,13 +42,39 @@
                     "karma": 0,
                     "subTree": {
                         "characterDialogue": ["Ribbit Ribbit"],
-                        "outcome": "One morning you stumble across a small frog statue in the middle of the street. You take it home, and meditate with it, until your mind is clear of temptation. The next morning you see a fly buzzing around your kitchen. It looks tasty.",
+                        "outcome": null,
                         "threeDice": {
                             "animal": "frog",
                             "weather": "lightning",
                             "rune": "connection"
                         },
-                        "dialogueOptions": []
+                        "dialogueOptions": [{
+                            "playerResponse": "Ribbit Ribbit",
+                            "karma": 0,
+                            "subTree": {
+                                "characterDialogue": ["Ribbit Ribbit Ribbit"],
+                                "outcome": null,
+                                "threeDice": {
+                                    "animal": "frog",
+                                    "weather": "lightning",
+                                    "rune": "connection"
+                                },
+                                "dialogueOptions": [{
+                                    "playerResponse": "Ribbit Ribbit Croak",
+                                    "karma": 0,
+                                    "subTree": {
+                                        "characterDialogue": ["Ribbit Ribbit Ribbit"],
+                                        "outcome": "One morning you stumble across a small frog statue in the middle of the street. You take it home, and meditate with it, until your mind is clear of temptation. The next morning you see a fly buzzing around your kitchen. It looks tasty.",
+                                        "threeDice": {
+                                            "animal": "frog",
+                                            "weather": "lightning",
+                                            "rune": "connection"
+                                        },
+                                        "dialogueOptions": []
+                                    }
+                                }]
+                            }
+                        }]
                     }
                 },
                 {
@@ -42,13 +82,52 @@
                     "karma": 0,
                     "subTree": {
                         "characterDialogue": ["Ribb- Oh my bad.", "I was asking whether you wanted some mints."],
-                        "outcome": "One morning you stumble across a small frog statue in the middle of the street. You take it home, and meditate with it, until your mind is clear of temptation. The next morning you see a fly buzzing around your kitchen. It looks tasty.",
+                        "outcome": null,
                         "threeDice": {
                             "animal": "frog",
                             "weather": "lightning",
                             "rune": "connection"
                         },
-                        "dialogueOptions": []
+                        "dialogueOptions": [{
+                            "playerResponse": "Yes please, I love mints.",
+                            "karma": 0,
+                            "subTree": {
+                                "characterDialogue": ["When you gaze into the mint box, the mint box also gazes into you."],
+                                "outcome": null,
+                                "threeDice": {
+                                    "animal": "frog",
+                                    "weather": "lightning",
+                                    "rune": "connection"
+                                },
+                                "dialogueOptions": {
+                                    "playerResponse": "Croaaaaaaaaak.",
+                                    "karma": 0,
+                                    "subTree": {
+                                        "characterDialogue": ["When you gaze into the mint box, the mint box also gazes into you."],
+                                        "outcome": "Ribbit ribbit ribbit ribbit. You are now frog. Congratulations.",
+                                        "threeDice": {
+                                            "animal": "frog",
+                                            "weather": "lightning",
+                                            "rune": "connection"
+                                        },
+                                        "dialogueOptions": []
+                                    }
+                                }
+                            }
+                        },{
+                            "playerResponse": "No thank you, I do not wish to be minty fresh.",
+                            "karma": 0,
+                            "subTree": {
+                                "characterDialogue": ["Perhaps your mind is not so clouded after all. Ribbit."],
+                                "outcome": "You wake up shaken from your dream. Perhaps scamming people is not for you.",
+                                "threeDice": {
+                                    "animal": "frog",
+                                    "weather": "lightning",
+                                    "rune": "connection"
+                                },
+                                "dialogueOptions": []
+                            }
+                        }]
                     }
                 }
             ]
