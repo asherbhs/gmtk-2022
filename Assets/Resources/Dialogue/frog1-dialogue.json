@@ -1,0 +1,57 @@
+{
+    "forest": [
+        {
+            "characterDialogue": ["Ribbit", "Ribbit Ribbit"],
+            "outcome": null,
+            "threeDice": {
+                "animal": "frog",
+                "animal": "frog",
+                "animal": "frog"
+            },
+            "dialogueOptions": [
+                {
+                    "playerResponse": "Welcome, oh Lord.",
+                    "karma": 1000000,
+                    "subTree": {
+                        "characterDialogue": ["Ribbit crooooooooooak"],
+                        "outcome": "You are blessed by the Godly power of the frog. Your fortunes are more accurate than ever, and your coin purse grows fat.",
+                        "threeDice": {
+                            "animal": "frog",
+                            "weather": "lightning",
+                            "rune": "connection"
+                        },
+                        "dialogueOptions": []
+                    }
+                },
+                {
+                    "playerResponse": "Ribbit Ribbit",
+                    "karma": 0,
+                    "subTree": {
+                        "characterDialogue": ["Ribbit Ribbit"],
+                        "outcome": "One morning you stumble across a small frog statue in the middle of the street. You take it home, and meditate with it, until your mind is clear of temptation. The next morning you see a fly buzzing around your kitchen. It looks tasty.",
+                        "threeDice": {
+                            "animal": "frog",
+                            "weather": "lightning",
+                            "rune": "connection"
+                        },
+                        "dialogueOptions": []
+                    }
+                },
+                {
+                    "playerResponse": "Sir, I do not understand your question.",
+                    "karma": 0,
+                    "subTree": {
+                        "characterDialogue": ["Ribb- Oh my bad.", "I was asking whether you wanted some mints."],
+                        "outcome": "One morning you stumble across a small frog statue in the middle of the street. You take it home, and meditate with it, until your mind is clear of temptation. The next morning you see a fly buzzing around your kitchen. It looks tasty.",
+                        "threeDice": {
+                            "animal": "frog",
+                            "weather": "lightning",
+                            "rune": "connection"
+                        },
+                        "dialogueOptions": []
+                    }
+                }
+            ]
+        }
+    ]
+}
