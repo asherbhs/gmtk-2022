@@ -62,8 +62,13 @@ public class DialogueBox : MonoBehaviour
         }
         else
         {
-            gameObject.SetActive(false);
             gameManager.OnDialogueDone();
         }
+    }
+
+    public void ClearText()
+    {
+        textComponent.text = "";
+        nameComponent.text = "";
     }
 }

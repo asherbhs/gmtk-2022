@@ -16,6 +16,7 @@ public class DiceScript : MonoBehaviour
         tmp.a = 0f;
         spriteRenderer.GetComponent<Image>().color = tmp;
         StartCoroutine(Rolling(rolls));
+        gameManager.OnRollStart();
     }
 
     private IEnumerator Rolling(int rolls)

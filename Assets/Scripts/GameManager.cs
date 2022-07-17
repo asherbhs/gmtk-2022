@@ -2,33 +2,61 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.UI;
+
 public class GameManager : MonoBehaviour
 {
     private DialogueForest currentDialogueForest;
     private int currentDialogueTreeIndex;
     private DialogueTree currentDialogueTree;
+    private int rollsRecieved;
+    private Button rollButton;
+    private Image animalImage;
+    private Image weatherImage;
+    private Image runeImage;
 
     // all linked in editor
     public Character character;
     public DialogueBox dialogueBox;
     public DialogueButton[] dialogueButtons;
     public GameObject diceShit;
+    public Sprite[] diceSprites;
 
     void Start() 
     {
+        dialogueBox.enabled = true;
+        // foreach (DialogueButton b in dialogueButtons) { b.enabled = false; }
+        foreach (DialogueButton b in dialogueButtons)
+        {
+            b.gameObject.SetActive(false);
+        }
+        diceShit.gameObject.SetActive(false);
+        rollButton = diceShit.transform.Find("Roll").gameObject.GetComponent<Button>();
+        animalImage = diceShit
+            .transform
+            .Find("Animal Die/Ani Symbol")
+            .gameObject
+            .GetComponent<Image>();
+        weatherImage = diceShit
+            .transform
+            .Find("Weather Die/Wea Symbol")
+            .gameObject
+            .GetComponent<Image>();
+        runeImage = diceShit
+            .transform
+            .Find("Rune Die/Run Symbol")
+            .gameObject
+            .GetComponent<Image>();
+
         currentDialogueForest = character.CurrentCharacterData().dialogueForest;
         currentDialogueTreeIndex = 0;
         currentDialogueTree = currentDialogueForest.forest[0]; 
+        rollsRecieved = 0;
         ShowCharacterDialogue();
     }
 
     void ShowCharacterDialogue()
     {
-        foreach (DialogueButton b in dialogueButtons)
-        {
-            b.gameObject.SetActive(false);
-        }
-
         dialogueBox.SetCharacterName(character.CurrentCharacterData().name);
         dialogueBox.lines = currentDialogueTree.characterDialogue;
         dialogueBox.StartDialogue();
@@ -36,8 +64,27 @@ public class GameManager : MonoBehaviour
 
     public void OnDialogueDone()
     {
-        // if options, show roll then buttons
-        if (currentDialogueTree.dialogueOptions.Length > 0) { ShowButtons(); }
+        // if options, wait for roll
+        if (currentDialogueTree.dialogueOptions.Length > 0)
+        {
+            dialogueBox.ClearText();
+            dialogueBox.enabled = false;
+
+            diceShit.gameObject.SetActive(true);
+            Color temp = animalImage.color;
+            temp.a = 0f;
+            animalImage.color = temp;
+            temp = weatherImage.color;
+            temp.a = 0f;
+            weatherImage.color = temp;
+            temp = runeImage.color;
+            temp.a = 0f;
+            runeImage.color = temp;
+            animalImage.sprite = DiceTagToSprite(currentDialogueTree.threeDice.animal);
+            weatherImage.sprite = DiceTagToSprite(currentDialogueTree.threeDice.weather);
+            runeImage.sprite = DiceTagToSprite(currentDialogueTree.threeDice.rune);
+            rollButton.enabled = true;
+        }
         // else if more trees, next tree
         else if (currentDialogueTreeIndex < currentDialogueForest.forest.Length - 1)
         {
@@ -61,7 +108,17 @@ public class GameManager : MonoBehaviour
         // else end
     }
 
-    public void OnRollDone() {}
+    public void OnRollStart() { rollButton.enabled = false; }
+
+    public void OnRollDone()
+    {
+        rollsRecieved++;
+        if (rollsRecieved == 3)
+        {
+            rollsRecieved = 0;
+            ShowButtons();
+        }
+    }
 
     public void ShowButtons()
     {
@@ -75,7 +132,57 @@ public class GameManager : MonoBehaviour
 
     public void PickDialogueOption(int i)
     {
+        diceShit.SetActive(false);
+        dialogueBox.enabled = true;
+        foreach (DialogueButton b in dialogueButtons)
+        {
+            b.gameObject.SetActive(false);
+        }
+
         currentDialogueTree = currentDialogueTree.dialogueOptions[i].subTree;
         ShowCharacterDialogue();
     }
+
+    Sprite DiceTagToSprite(string tag) { switch (tag)
+    {
+        case "cat":
+            return diceSprites[0];
+        case "wolf":
+            return diceSprites[1];
+        case "fish":
+            return diceSprites[2];
+        case "rabbit":
+            return diceSprites[3];
+        case "bird":
+            return diceSprites[4];
+        case "frog":
+            return diceSprites[5];
+
+        case "wind":
+            return diceSprites[6];
+        case "lightning":
+            return diceSprites[7];
+        case "sun":
+            return diceSprites[8];
+        case "snow":
+            return diceSprites[9];
+        case "rain":
+            return diceSprites[10];
+        case "cloud":
+            return diceSprites[11];
+
+        case "peorth":
+            return diceSprites[12];
+        case "aangor":
+            return diceSprites[13];
+        case "ehwan":
+            return diceSprites[14];
+        case "isa":
+            return diceSprites[15];
+        case "akhon":
+            return diceSprites[16];
+        case "fo-un":
+            return diceSprites[17];
+        default: return null;
+    }}
 }
