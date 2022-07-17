@@ -5,7 +5,7 @@ using TMPro;
 
 public class ButtonController : MonoBehaviour
 {
-    public GameObject manager;
+    public GameManager manager;
     public GameObject buttonParent;
     public void debug()
     {
