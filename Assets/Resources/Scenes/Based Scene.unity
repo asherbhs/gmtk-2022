@@ -4888,6 +4888,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 846158258}
   spriteRenderer: {fileID: 18571892}
+  gameManager: {fileID: 604400058}
 --- !u!114 &1145283087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4902,6 +4903,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 197692052}
   spriteRenderer: {fileID: 1388450053}
+  gameManager: {fileID: 604400058}
 --- !u!114 &1145283088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4916,6 +4918,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 435169312}
   spriteRenderer: {fileID: 1360675164}
+  gameManager: {fileID: 604400058}
 --- !u!114 &1145283089
 MonoBehaviour:
   m_ObjectHideFlags: 0

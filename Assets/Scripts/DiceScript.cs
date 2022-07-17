@@ -29,7 +29,7 @@ public class DiceScript : MonoBehaviour
         yield return new WaitForSeconds(0.7f);
 
         StartCoroutine(FadeIn());
-        gameManager.onRollDone();
+        gameManager.OnRollDone();
     }
 
     private IEnumerator FadeIn()

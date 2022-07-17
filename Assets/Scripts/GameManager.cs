@@ -60,6 +60,8 @@ public class GameManager : MonoBehaviour
         // else end
     }
 
+    public void OnRollDone() {}
+
     public void ShowButtons()
     {
         for (int i = 0; i < currentDialogueTree.dialogueOptions.Length; i++)
