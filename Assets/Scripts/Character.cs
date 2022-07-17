@@ -73,4 +73,9 @@ public class Character : MonoBehaviour
     {
         return allCharacterData[characterIndex];
     }
+
+    public bool HasNextCharacter()
+    {
+        return characterIndex < allCharacterData.Length - 1;
+    }
 }
