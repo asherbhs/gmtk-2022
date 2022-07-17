@@ -68,6 +68,7 @@ public class GameManager : MonoBehaviour
         if (currentDialogueTree.dialogueOptions.Length > 0)
         {
             dialogueBox.ClearText();
+            dialogueBox.SetCharacterName("You");
             dialogueBox.enabled = false;
 
             diceShit.gameObject.SetActive(true);
