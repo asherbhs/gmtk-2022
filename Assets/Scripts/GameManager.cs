@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -21,9 +21,22 @@ public class GameManager : MonoBehaviour
     public DialogueButton[] dialogueButtons;
     public GameObject diceShit;
     public Sprite[] diceSprites;
+    private static GameManager managerInstance;
 
     void Start() 
     {
+        DontDestroyOnLoad(this);
+
+        if (managerInstance == null)
+        {
+            managerInstance = this;
+        }
+        else
+        {
+            DestroyObject(gameObject);
+        }
+
+
         dialogueBox.enabled = true;
         // foreach (DialogueButton b in dialogueButtons) { b.enabled = false; }
         foreach (DialogueButton b in dialogueButtons)
@@ -63,7 +76,8 @@ public class GameManager : MonoBehaviour
     }
 
     public void OnDialogueDone()
-    {
+    {   
+        // if outcome scene, change scene
         // if options, wait for roll
         if (currentDialogueTree.dialogueOptions.Length > 0)
         {
