@@ -16,9 +16,9 @@
                         "characterDialogue": ["kbye"],
                         "outcome": "man one likes u",
                         "threeDice": {
-                            "animal": "frog",
-                            "weather": "lightning",
-                            "rune": "connection"
+                            "animal": "",
+                            "weather": "",
+                            "rune": ""
                         },
                         "dialogueOptions": []
                     }
@@ -30,9 +30,9 @@
                         "characterDialogue": ["wow okay", "fuck you"],
                         "outcome": "man one hates u",
                         "threeDice": {
-                            "animal": "frog",
-                            "weather": "lightning",
-                            "rune": "connection"
+                            "animal": "",
+                            "weather": "",
+                            "rune": ""
                         },
                         "dialogueOptions": []
                     }
@@ -55,9 +55,9 @@
                         "characterDialogue": ["that is respecable"],
                         "outcome": "you agree",
                         "threeDice": {
-                            "animal": "bird",
-                            "weather": "sun",
-                            "rune": "failure"
+                            "animal": "",
+                            "weather": "",
+                            "rune": ""
                         },
                         "dialogueOptions": []
                     }
@@ -69,9 +69,9 @@
                         "characterDialogue": ["indeed"],
                         "outcome": "you agree positively",
                         "threeDice": {
-                            "animal": "bird",
-                            "weather": "sun",
-                            "rune": "failure"
+                            "animal": "",
+                            "weather": "",
+                            "rune": ""
                         },
                         "dialogueOptions": []
                     }

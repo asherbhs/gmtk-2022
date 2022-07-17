@@ -5,18 +5,10 @@ using UnityEngine.UI;
 
 public class DiceScript : MonoBehaviour
 {
+    // linked in editor
     public Animator animator;
     public GameObject spriteRenderer;
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public GameManager gameManager;
 
     public void Roll(int rolls)
     {
@@ -37,7 +29,7 @@ public class DiceScript : MonoBehaviour
         yield return new WaitForSeconds(0.7f);
 
         StartCoroutine(FadeIn());
-
+        gameManager.onRollDone();
     }
 
     private IEnumerator FadeIn()
