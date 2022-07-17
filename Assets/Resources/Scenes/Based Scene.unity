@@ -369,7 +369,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00018310547, y: -93.99991}
+  m_AnchoredPosition: {x: 0.00024414062, y: -93.99991}
   m_SizeDelta: {x: -320, y: 190}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &136498765
@@ -1864,7 +1864,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 'The Rune of Aangor represents the breaking of ties,
-            the seperation between things. This may involve the seperation of the
+            the separation between things. This may involve the seperation of the
             body and soul, or the severance of connections between people. '
           m_BoolArgument: 0
         m_CallState: 2
@@ -2749,7 +2749,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &774742165
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10343,8 +10343,8 @@ RectTransform:
   m_Father: {fileID: 1514607555}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -680}
-  m_SizeDelta: {x: -1820, y: 100}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 535}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 1}
