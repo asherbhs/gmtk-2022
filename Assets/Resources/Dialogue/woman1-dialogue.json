@@ -1,81 +1,233 @@
 {
     "forest": [
         {
-            "characterDialogue": ["hello", "I am Woman One"],
+          "characterDialogue": [
+            "Hi-Hi?",
+            "Is this the right room?",
+            "I'm looking for guidance Fortune Teller...",
+            "Tell me, what will my future hold!"
+          ],
             "outcome": null,
             "threeDice": {
                 "animal": "frog",
-                "weather": "lightning",
-                "rune": "aangor"
+                "weather": "rain",
+                "rune": "akhon"
             },
             "dialogueOptions": [
                 {
-                    "playerResponse": "hi Woman One",
+                    "playerResponse": "You will change and develop for the worse.",
                     "karma": 0,
                     "subTree": {
-                        "characterDialogue": ["kbye"],
-                        "outcome": "woman one likes u",
+                      "characterDialogue": [
+                        "Wh-What!",
+                        "I don't want to get worse!! Can this be adverted?"
+                      ],
+                        "outcome": null,
                         "threeDice": {
-                            "animal": "",
-                            "weather": "",
-                            "rune": ""
+                            "animal": "wolf",
+                            "weather": "lightning",
+                            "rune": "akhon"
                         },
-                        "dialogueOptions": []
+                      "dialogueOptions": [
+                        {
+                          "playerResponse": "You must tame a wolf, quickly!",
+                          "karma": 0,
+                          "subTree": {
+                            "characterDialogue": [
+                              "I- I don't understand how that will help...",
+                              "BUT I WILL TRY ANYWAY!"
+                            ],
+                            "outcome": "And so the woman ran out to the nearest forest in search of a wolf. 5 years later she had an army of wolves developed for the better.",
+                            "threeDice": {
+                              "animal": "",
+                              "weather": "",
+                              "rune": ""
+                            },
+                            "dialogueOptions": []
+                          }
+                        }
+                      ]
                     }
                 },
-                {
-                    "playerResponse": "u suck",
-                    "karma": 0,
-                    "subTree": {
-                        "characterDialogue": ["wow okay", "fuck you"],
-                        "outcome": "woman one hates u",
+              {
+                "playerResponse": "You will mature and find your resolve.",
+                "karma": 0,
+                "subTree": {
+                  "characterDialogue": [
+                    "Oh! Oh Really? Thank you Seer that is what I needed to hear!",
+                    "I have been so stressed and worried...",
+                    "If... If you know I need to find my resolve...",
+                    "Will ~they~ say yes..?"
+                  ],
+                  "outcome": null,
+                  "threeDice": {
+                    "animal": "fish",
+                    "weather": "sun",
+                    "rune": "peorth"
+                  },
+                  "dialogueOptions": [
+                    {
+                      "playerResponse": "If you go with the flow, they will fall for you.",
+                      "karma": 0,
+                      "subTree": {
+                        "characterDialogue": [
+                          "Oh My God! Yes!!",
+                          "Thank you! I just need to relax and chill, and they will come to me!",
+                          "Oh Oh ! One more thing before I leave!",
+                          "Will I ever be truly happy?",
+                        ],
+                        "outcome": null,
                         "threeDice": {
-                            "animal": "",
-                            "weather": "",
-                            "rune": ""
+                          "animal": "rabbit",
+                          "weather": "snow",
+                          "rune": "fo-un"
                         },
-                        "dialogueOptions": []
+                        "dialogueOptions": [
+                          {
+                            "playerResponse": "You will find happiness within.",
+                            "karma": 0,
+                            "subTree": {
+                              "characterDialogue": [
+                                "Ah thank you Fortune Teller!",
+                                "I'm sure its just a passing feeling...",
+                                "It just feels like I've been stuck with this sad expression forever!",
+                                "See you around!"
+                              ],
+                              "outcome": "The woman was asked out by her crush, and they grew up happy together, even if the woman did not have the sprites able to show it.",
+                              "threeDice": {
+                                "animal": "",
+                                "weather": "",
+                                "rune": ""
+                              },
+                              "dialogueOptions": []
+                            }
+                          },
+                          {
+                            "playerResponse": "No. We did not have enough time for a happy sprite.",
+                            "karma": 0,
+                            "subTree": {
+                              "characterDialogue": [
+                                "I- Wait What??",
+                                "Am I permanently looking sad??",
+                                "Who designed this??",
+                                "Who? Oh them? Ohhhh",
+                                "Ohhhhhhhhhhhhhhhhhhhh",
+                                "That makes a lot more sense now.",
+                                "I pray I get that happy sprite one day..."
+                              ],
+                              "outcome": "The woman forever remained sad. Even when their crush asked them out, she looked sad, and so they thought the woman was rejecting them. Call the unfinished sprites hotline to avoid this fate happening to your or someone you love.",
+                              "threeDice": {
+                                "animal": "",
+                                "weather": "",
+                                "rune": ""
+                              },
+                              "dialogueOptions": []
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "playerResponse": "They will never fall for you, because you look like a fish.",
+                      "karma": 0,
+                      "subTree": {
+                        "characterDialogue": [
+                          "EXCUSE ME-",
+                          "WHAT DID YOU JUST CALL ME?!"
+                        ],
+                        "outcome": null,
+                        "threeDice": {
+                          "animal": "fish",
+                          "weather": "cloud",
+                          "rune": "ehwan"
+                        },
+                        "dialogueOptions": [
+                          {
+                            "playerResponse": "Fish.",
+                            "karma": 0,
+                            "subTree": {
+                              "characterDialogue": [
+                                "DID.",
+                                "YOU.",
+                                "JUST.",
+                                "CALL.",
+                                "ME.",
+                                "FISH???.",
+                              ],
+                              "outcome": null,
+                              "threeDice": {
+                                "animal": "fish",
+                                "weather": "fish",
+                                "rune": "fish"
+                              },
+                              "dialogueOptions": [
+                                {
+                                  "playerResponse": "Fish.",
+                                  "karma": 0,
+                                  "subTree": {
+                                    "characterDialogue": [
+                                      "YOU ARE  ",
+                                      "      ",
+                                      "Absolutely correct.",
+                                      "Have a good day Fortune Teller",
+                                      "*Fish Noises*"
+                                    ],
+                                    "outcome": "The woman swam away from the tent to return to the ocean. Reject humanity, return to fish.",
+                                    "threeDice": {
+                                      "animal": "",
+                                      "weather": "",
+                                      "rune": ""
+                                    },
+                                    "dialogueOptions": []
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
                     }
+                  ]
                 }
-            ]
-        },
-        {
-            "characterDialogue": ["okay this is a second tree in the forest"],
-            "outcome": null,
-            "threeDice": {
-                "animal": "bird",
-                "weather": "sun",
-                "rune": "aangor"
-            },
-            "dialogueOptions": [
-                {
-                    "playerResponse": "thanks I hate it",
-                    "karma": 0,
-                    "subTree": {
-                        "characterDialogue": ["that is respecable"],
-                        "outcome": "you agree",
+              },
+              {
+                "playerResponse": "You will turn into a frog.",
+                "karma": 0,
+                "subTree": {
+                  "characterDialogue": [
+                    "W-What-",
+                    "Yo-",
+                    "You can't be serious-",
+                    "A frog??",
+                    "S-Seriously?"
+                  ],
+                  "outcome": null,
+                  "threeDice": {
+                    "animal": "frog",
+                    "weather": "frog",
+                    "rune": "frog"
+                  },
+                  "dialogueOptions": [
+                    {
+                      "playerResponse": "The dice does not lie.",
+                      "karma": 0,
+                      "subTree": {
+                        "characterDialogue": [
+                          "No- You've got to be joking me-",
+                          "I'm out of here, I'm not sticking here to listen to this."
+                        ],
+                        "outcome": "So the woman left, thinking they had just wasted $20- wait wow the Fortune Teller is expensive. Either way, the woman left, only to soon turn into a frog moments after. Ribbit.",
                         "threeDice": {
-                            "animal": "",
-                            "weather": "",
-                            "rune": ""
+                          "animal": "",
+                          "weather": "",
+                          "rune": ""
                         },
                         "dialogueOptions": []
+                      }
                     }
-                },
-                {
-                    "playerResponse": "oooo very cool",
-                    "karma": 0,
-                    "subTree": {
-                        "characterDialogue": ["indeed"],
-                        "outcome": "you agree positively",
-                        "threeDice": {
-                            "animal": "",
-                            "weather": "",
-                            "rune": ""
-                        },
-                        "dialogueOptions": []
-                    }
+                  ]
                 }
+              }
             ]
         }
     ]
