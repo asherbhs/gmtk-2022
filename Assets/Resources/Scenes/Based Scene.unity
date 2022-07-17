@@ -796,7 +796,10 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'FROG: GREAT DANGER'
+          m_StringArgument: The Frog brings forth feelings of change and growth.
+            Their metamorphasis demonstrates how they change and evolve, adapting
+            to the world around them, constantly bettering themselves in our large
+            and confusing world.
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &322734699
@@ -1007,7 +1010,9 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'FROG: GREAT DANGER'
+          m_StringArgument: 'The Cat brings forth feelings of laziness and complacency.
+            Entirely comfortable in their situation, the Cat seeks out little change,
+            and instead relaxes in its subservience to a higher power. '
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &398240382
@@ -1858,7 +1863,9 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'FROG: GREAT DANGER'
+          m_StringArgument: 'The Rune of Aangor represents the breaking of ties,
+            the seperation between things. This may involve the seperation of the
+            body and soul, or the severance of connections between people. '
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &520829051
@@ -1993,7 +2000,10 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'FROG: GREAT DANGER'
+          m_StringArgument: The Rune of Fo-un is symbolic of failure and defeat.
+            This may form in failing an important task, or represent the feeling
+            of failure within one's self, often resulting in lack of self-worth,
+            or depression.
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &531280465
@@ -2183,7 +2193,7 @@ MonoBehaviour:
           m_StringArgument: The Rune of Peorth is symbolic of connections and togetherness.
             Representing bondage, material or metaphysical, the Rune is commonly
             associated with attachment; the attachment between people, places, or
-            bitches.
+            possessions.
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &605637742
@@ -2739,7 +2749,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &774742165
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2972,7 +2982,9 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'FROG: GREAT DANGER'
+          m_StringArgument: The Fish brings forth peace and the concept of flow.
+            They drift in life, arguably without purpose, but never lost, flowing
+            to exactly where they intend to go, providing a strange sense of stability.
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &796294188
@@ -3107,7 +3119,10 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'FROG: GREAT DANGER'
+          m_StringArgument: The Rune of Ehwan is one of conflict and isolation. This
+            is inevitable clashing of wills or bodies. The conflict need not be violent,
+            nor even aggressive yet will certainly seed discord between people and
+            one's self.
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &837278143
@@ -4026,7 +4041,10 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'FROG: GREAT DANGER'
+          m_StringArgument: The Wolf brings forth aggression, and violence. The Wolf
+            is a creature that takes action, going headfirst in hunting its prey.
+            Prone to anger, and savage outbursts, many attribute its ferocity as
+            a way to distract from their pain.
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &947549500
@@ -4237,7 +4255,10 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'FROG: GREAT DANGER'
+          m_StringArgument: When your future tells of Wind, it represents forcefulness.
+            Whether this is you having to force your will upon others, or you may
+            have to force yourself to continue, a vigour will enter your life that
+            will be hard to ignore.
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &991422123
@@ -4666,7 +4687,10 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'FROG: GREAT DANGER'
+          m_StringArgument: The Bird brings forth agility and rashness. The Bird
+            soars above us all, looking down to make a quick decisive motion, to
+            attain its prey. There is an awe of confidence present with the bird,
+            despite not always being the wisest.
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1074432270
@@ -4801,7 +4825,9 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'FROG: GREAT DANGER'
+          m_StringArgument: The Rabbit brings forth innocence and vulnerability.
+            The Rabbit can represent new life, or even rebirth, with a freshness
+            in looking at the world; though many confuse its innocence with naivety.
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1079533264
@@ -5891,7 +5917,10 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'FROG: GREAT DANGER'
+          m_StringArgument: ' The Rune of Akhon represnets success and achievement.
+            Indicating progress, and the fulfilment of goals, the Rune may also act
+            as a measure of ego, or a forewarning of a bloated ego disrupting one''s
+            life. '
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1249182612
@@ -7412,7 +7441,10 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'FROG: GREAT DANGER'
+          m_StringArgument: When your future speaks of Clouds, it symbolises apathy
+            and an indifference with the world. This manifests in many ways; where
+            one may find inner peace, others may become estranged, detached from
+            themselves and the people around them.
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1454916212
@@ -8140,7 +8172,10 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'FROG: GREAT DANGER'
+          m_StringArgument: When your future spells out Rain, it reflects pessimism
+            and cold reality. Your future will entail that things may get worse,
+            and that you will experience far more negative emotions. This is a time
+            for self reflection.
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1584063497
@@ -8275,7 +8310,10 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'FROG: GREAT DANGER'
+          m_StringArgument: When your future calls Thunder, it avails decisiveness
+            and a call to action unlike what you may have experienced before. You
+            are about to enter a critical period of your life, where an important
+            choice will reveal itself.
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1584309228
@@ -8410,7 +8448,10 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'FROG: GREAT DANGER'
+          m_StringArgument: When your future forecasts the Sun, it embodies a warmth
+            and optimism. Happiness is likely to follow you on your endeavours. It
+            is also a time for growth and development, maturing as a person, emotionally
+            and spiritually.
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1612009790
@@ -8681,7 +8722,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lightning
+  m_text: Thunder
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ff81c8443f2de0d4289825d5d30ccf9f, type: 2}
   m_sharedMaterial: {fileID: -1636612286003636014, guid: ff81c8443f2de0d4289825d5d30ccf9f, type: 2}
@@ -9837,7 +9878,10 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'FROG: GREAT DANGER'
+          m_StringArgument: When your future summons Snow, it reflects melancholy.
+            This is an all encompassing sadness that will not alleviate for some
+            time. Some may argue there is peace in this sheltered life, yet it brings
+            an undescribable loneliness.
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2018359284
@@ -10145,7 +10189,9 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'FROG: GREAT DANGER'
+          m_StringArgument: The Rune of Isa embodies resolution. This is conflict
+            subsiding, and witnessing the coming together of people. This may not
+            remedy all harm caused, but it offers respite for the wailing souls.
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2107160377
