@@ -625,7 +625,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Resolution
+  m_text: Isa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ff81c8443f2de0d4289825d5d30ccf9f, type: 2}
   m_sharedMaterial: {fileID: -1636612286003636014, guid: ff81c8443f2de0d4289825d5d30ccf9f, type: 2}
@@ -1476,7 +1476,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Separation
+  m_text: Aangor
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ff81c8443f2de0d4289825d5d30ccf9f, type: 2}
   m_sharedMaterial: {fileID: -1636612286003636014, guid: ff81c8443f2de0d4289825d5d30ccf9f, type: 2}
@@ -2278,7 +2278,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Conflict
+  m_text: Ehwan
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ff81c8443f2de0d4289825d5d30ccf9f, type: 2}
   m_sharedMaterial: {fileID: -1636612286003636014, guid: ff81c8443f2de0d4289825d5d30ccf9f, type: 2}
@@ -2756,7 +2756,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -583.6, y: 199.90002}
+  m_AnchoredPosition: {x: -585.3, y: 198.2}
   m_SizeDelta: {x: -1200, y: -427.849}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &774742166
@@ -3774,9 +3774,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Failure
-
-'
+  m_text: Fo-un
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ff81c8443f2de0d4289825d5d30ccf9f, type: 2}
   m_sharedMaterial: {fileID: -1636612286003636014, guid: ff81c8443f2de0d4289825d5d30ccf9f, type: 2}
@@ -5859,9 +5857,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Connection
-
-'
+  m_text: Peorth
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ff81c8443f2de0d4289825d5d30ccf9f, type: 2}
   m_sharedMaterial: {fileID: -1636612286003636014, guid: ff81c8443f2de0d4289825d5d30ccf9f, type: 2}
@@ -7021,7 +7017,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Achievement
+  m_text: 'Akhon
 
 '
   m_isRightToLeft: 0
