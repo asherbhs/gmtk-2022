@@ -2081,6 +2081,25 @@ MonoBehaviour:
   - {fileID: 1269890929}
   - {fileID: 1442487187}
   diceShit: {fileID: 2126694928}
+  diceSprites:
+  - {fileID: -1974027097, guid: 4ee8ba3c18cf27546b9d869761a8a7a2, type: 3}
+  - {fileID: 1814128454, guid: 4ee8ba3c18cf27546b9d869761a8a7a2, type: 3}
+  - {fileID: -129726661, guid: 4ee8ba3c18cf27546b9d869761a8a7a2, type: 3}
+  - {fileID: -1419900559, guid: 4ee8ba3c18cf27546b9d869761a8a7a2, type: 3}
+  - {fileID: -2117514971, guid: 4ee8ba3c18cf27546b9d869761a8a7a2, type: 3}
+  - {fileID: 191115040, guid: 4ee8ba3c18cf27546b9d869761a8a7a2, type: 3}
+  - {fileID: 381138433, guid: 4ee8ba3c18cf27546b9d869761a8a7a2, type: 3}
+  - {fileID: 1894928985, guid: 4ee8ba3c18cf27546b9d869761a8a7a2, type: 3}
+  - {fileID: 1370039113, guid: 4ee8ba3c18cf27546b9d869761a8a7a2, type: 3}
+  - {fileID: 1240834137, guid: 4ee8ba3c18cf27546b9d869761a8a7a2, type: 3}
+  - {fileID: 1240457676, guid: 4ee8ba3c18cf27546b9d869761a8a7a2, type: 3}
+  - {fileID: -472035659, guid: 4ee8ba3c18cf27546b9d869761a8a7a2, type: 3}
+  - {fileID: 2099303523, guid: 4ee8ba3c18cf27546b9d869761a8a7a2, type: 3}
+  - {fileID: 1344318581, guid: 4ee8ba3c18cf27546b9d869761a8a7a2, type: 3}
+  - {fileID: -719824925, guid: 4ee8ba3c18cf27546b9d869761a8a7a2, type: 3}
+  - {fileID: -450698157, guid: 4ee8ba3c18cf27546b9d869761a8a7a2, type: 3}
+  - {fileID: 125217382, guid: 4ee8ba3c18cf27546b9d869761a8a7a2, type: 3}
+  - {fileID: -1625135340, guid: 4ee8ba3c18cf27546b9d869761a8a7a2, type: 3}
 --- !u!4 &604400059
 Transform:
   m_ObjectHideFlags: 0
