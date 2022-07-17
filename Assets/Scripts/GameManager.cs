@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public Character character;
     public DialogueBox dialogueBox;
     public DialogueButton[] dialogueButtons;
+    public GameObject diceShit;
 
     void Start() 
     {
@@ -35,7 +36,7 @@ public class GameManager : MonoBehaviour
 
     public void OnDialogueDone()
     {
-        // if options, show buttons
+        // if options, show roll then buttons
         if (currentDialogueTree.dialogueOptions.Length > 0) { ShowButtons(); }
         // else if more trees, next tree
         else if (currentDialogueTreeIndex < currentDialogueForest.forest.Length - 1)

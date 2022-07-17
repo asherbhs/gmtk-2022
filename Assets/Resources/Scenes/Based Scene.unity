@@ -559,8 +559,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1388450056}
-  m_Father: {fileID: 1514607555}
-  m_RootOrder: 3
+  m_Father: {fileID: 2126694929}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1275,8 +1275,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1360675167}
-  m_Father: {fileID: 1514607555}
-  m_RootOrder: 2
+  m_Father: {fileID: 2126694929}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2070,6 +2070,7 @@ MonoBehaviour:
   - {fileID: 1575771414}
   - {fileID: 1269890929}
   - {fileID: 1442487187}
+  diceShit: {fileID: 2126694928}
 --- !u!4 &604400059
 Transform:
   m_ObjectHideFlags: 0
@@ -2752,7 +2753,7 @@ RectTransform:
   - {fileID: 1073179814}
   - {fileID: 1996110436}
   m_Father: {fileID: 1514607555}
-  m_RootOrder: 6
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3233,8 +3234,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 18571895}
-  m_Father: {fileID: 1514607555}
-  m_RootOrder: 4
+  m_Father: {fileID: 2126694929}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4864,8 +4865,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1381389179}
-  m_Father: {fileID: 1514607555}
-  m_RootOrder: 5
+  m_Father: {fileID: 2126694929}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7245,11 +7246,8 @@ RectTransform:
   m_Children:
   - {fileID: 1640491589}
   - {fileID: 1167129080}
-  - {fileID: 435169315}
-  - {fileID: 197692055}
-  - {fileID: 846158261}
-  - {fileID: 1145283085}
   - {fileID: 774742165}
+  - {fileID: 2126694929}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9771,3 +9769,43 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122065384}
   m_CullTransparentMesh: 1
+--- !u!1 &2126694928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2126694929}
+  m_Layer: 5
+  m_Name: DiceShit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2126694929
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126694928}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1145283085}
+  - {fileID: 846158261}
+  - {fileID: 197692055}
+  - {fileID: 435169315}
+  m_Father: {fileID: 1514607555}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
