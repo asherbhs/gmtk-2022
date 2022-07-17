@@ -26,8 +26,6 @@ public class GameManager : MonoBehaviour
 
     void Start() 
     {
-        DontDestroyOnLoad(this);
-
         if (managerInstance == null)
         {
             managerInstance = this;
@@ -122,7 +120,7 @@ public class GameManager : MonoBehaviour
             ShowCharacterDialogue();
         }
         // else if more characters, next character
-        else
+        else if (character.HasNextCharacter())
         {
             character.NextCharacter();
             currentDialogueTreeIndex = 0;
@@ -131,6 +129,10 @@ public class GameManager : MonoBehaviour
             currentDialogueTree = 
                 currentDialogueForest.forest[currentDialogueTreeIndex];
             ShowCharacterDialogue();
+        }
+        else
+        {
+            SceneManager.LoadScene("Menu");
         }
     }
 
