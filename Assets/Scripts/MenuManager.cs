@@ -13,8 +13,9 @@ public class MenuManager : MonoBehaviour
         Button btn = PlayButton.GetComponent<Button>();
     }
 
-    public void click()
+    public void Click()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+        Debug.Log("CLICK");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("DialogueScene");
     }
 }
