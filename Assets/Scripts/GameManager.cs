@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     private Image animalImage;
     private Image weatherImage;
     private Image runeImage;
+    private static GameManager managerInstance;
 
     // all linked in editor
     public Character character;
@@ -21,7 +22,7 @@ public class GameManager : MonoBehaviour
     public DialogueButton[] dialogueButtons;
     public GameObject diceShit;
     public Sprite[] diceSprites;
-    private static GameManager managerInstance;
+    public OutcomeBox outcomeBox;
 
     void Start() 
     {
@@ -100,8 +101,20 @@ public class GameManager : MonoBehaviour
             runeImage.sprite = DiceTagToSprite(currentDialogueTree.threeDice.rune);
             rollButton.enabled = true;
         }
+        else 
+        {
+            outcomeBox.gameObject.SetActive(true);
+            outcomeBox.SetText(currentDialogueTree.outcome);
+        }
+
+        // else end
+    }
+
+    public void OnOutcomeDone()
+    {
+        outcomeBox.gameObject.SetActive(false);
         // else if more trees, next tree
-        else if (currentDialogueTreeIndex < currentDialogueForest.forest.Length - 1)
+        if (currentDialogueTreeIndex < currentDialogueForest.forest.Length - 1)
         {
             currentDialogueTreeIndex++;
             currentDialogueTree = 
@@ -119,8 +132,6 @@ public class GameManager : MonoBehaviour
                 currentDialogueForest.forest[currentDialogueTreeIndex];
             ShowCharacterDialogue();
         }
-
-        // else end
     }
 
     public void OnRollStart() { rollButton.enabled = false; }
@@ -182,4 +193,20 @@ public class GameManager : MonoBehaviour
         case "fo-un": return diceSprites[17];
         default: return null;
     }}
+
+    public void LoadOutcome()
+    {
+        if (SceneManager.GetActiveScene().name != "OutcomeScene")
+        {
+            SceneManager.LoadScene("OutcomeScene");
+        }
+    }
+
+    public void LoadDialogue()
+    {
+        if (SceneManager.GetActiveScene().name != "DialogueScene")
+        {
+            SceneManager.LoadScene("DialogueScene");
+        }
+    }
 }
