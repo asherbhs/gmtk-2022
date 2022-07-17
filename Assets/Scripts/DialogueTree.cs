@@ -12,7 +12,7 @@ public class ThreeDice
     public string weather;
     // lightning, sun, wind, snow, rain, cloud
     public string rune;
-    // connection, separation, conflict, resolution, achievement, failure
+    // peorth, aangor, ehwan, isa, akhon, fo-un
 }
 
 [Serializable]

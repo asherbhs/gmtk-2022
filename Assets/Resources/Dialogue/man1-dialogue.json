@@ -4,9 +4,9 @@
             "characterDialogue": ["hello", "I am Man One"],
             "outcome": null,
             "threeDice": {
-                "animal": "frog",
+                "animal": "cat",
                 "weather": "lightning",
-                "rune": "connection"
+                "rune": "aangor"
             },
             "dialogueOptions": [
                 {
@@ -45,7 +45,7 @@
             "threeDice": {
                 "animal": "bird",
                 "weather": "sun",
-                "rune": "failure"
+                "rune": "aangor"
             },
             "dialogueOptions": [
                 {
