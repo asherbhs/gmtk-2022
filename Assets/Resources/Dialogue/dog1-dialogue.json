@@ -1,0 +1,393 @@
+{
+    "forest": [
+        {
+          "characterDialogue": [
+            "Woof Woof! Bark Bark, Woof!",
+            "(Hi There!! I'm a dog!)",
+            "Bark Bark, Waff Yaff! *Pant* *Pant*",
+            "(Have I been a good boy?)"
+          ],
+            "outcome": null,
+            "threeDice": {
+                "animal": "fish",
+                "weather": "sun",
+                "rune": "aangor"
+            },
+          "dialogueOptions": [
+            {
+              "playerResponse": "You have been the goodest of boys!",
+              "karma": 0,
+              "subTree": {
+                "characterDialogue": [
+                  "Woof! Woof! Bark Yiff *Pant* *Pant* Bark!",
+                  "(Yes! I've been a very good boy!')",
+                  "*Pant* *Pant* Wuff Woof!",
+                  "(I've been the best boy!)",
+                  "*Pant* *Pant* *Pant*",
+                  "(Panting)",
+                  "Woof Woof! Bark!",
+                  "(Will I get all of da pats?)"
+                ],
+                "outcome": null,
+                "threeDice": {
+                  "animal": "rabbit",
+                  "weather": "wind",
+                  "rune": "akhon"
+                },
+                "dialogueOptions": [
+                  {
+                    "playerResponse": "Yes! You will get all of da pats!",
+                    "karma": 0,
+                    "subTree": {
+                      "characterDialogue": [
+                        "Wruff! Wuff Woof! Bark Bark!",
+                        "(OH! Pats! Pet! Pat! Pot!)",
+                        "Woof Woof Wuuuuuuff!",
+                        "(I love pats! I haven't got a pat in so long!)",
+                        "Bark Bark *Whimper*",
+                        "(When will I get da pat?!)",
+                        "*Dog noises*"
+                      ],
+                      "outcome": null,
+                      "threeDice": {
+                        "animal": "bird",
+                        "weather": "lightning",
+                        "rune": "peorth"
+                      },
+                      "dialogueOptions": [
+                        {
+                          "playerResponse": "Right now! *Pets the dog*",
+                          "karma": 0,
+                          "subTree": {
+                            "characterDialogue": [
+                              "Murr Murr *Happy Dog Noises*",
+                              "(Pats!?!)",
+                              "*Yawn* Woof Woof!",
+                              "(Your pats are good!)",
+                              "*Dog noises*",
+                              "(All da pats are mine! The goodest of boys!)",
+                              "*Happy dog noises and incessant tail wagging*"
+                            ],
+                            "outcome": "The dog and the seer leave the tent, and proceeds to have a very good afternoon. Over the next few days the dog visited the Fortune Teller more often, until the Fortune Teller had a new pet to call their own.",
+                            "threeDice": {
+                              "animal": "",
+                              "weather": "",
+                              "rune": ""
+                            },
+                            "dialogueOptions": []
+                          }
+                        },
+                        {
+                          "playerResponse": "You will find your pets outside.",
+                          "karma": 0,
+                          "subTree": {
+                            "characterDialogue": [
+                              "Woof Woof! Bark!",
+                              "(Oh! Pets Pets!)",
+                              "*Excited dog noises*",
+                              "(Thank you! Thank you!)"
+                            ],
+                            "outcome": "The dog bounded out of the tent and found a young girl lost outside. The dog provided the girl company, and the girl provided a lot of pats. When her family found the girl, they couldn't help but take the dog with them. Now the dog has a new home and family.",
+                            "threeDice": {
+                              "animal": "",
+                              "weather": "",
+                              "rune": ""
+                            },
+                            "dialogueOptions": []
+                          }
+                        },
+                        {
+                          "playerResponse": "You need but only ask.",
+                          "karma": 0,
+                          "subTree": {
+                            "characterDialogue": [
+                              "Wuff? Wuuf Woof! Wuff!!",
+                              "(I have the power of pets? Power of da pats?)",
+                              "*Excited dog noises*",
+                              "(I see now mere human...)",
+                              "*Cute Yampering*",
+                              "(I am no simple dog...)",
+                              "*Wagging tail* Yap",
+                              "(For you see, I am the God of Pets and Pats! The temptation of resisting my insatiable cuteness is impossible!)",
+                              "Bark Bark!",
+                              "(Pats.)"
+                            ],
+                            "outcome": "The dog pulled the seer into a trance that could not be escaped, and the reign of pats began. Quickly the western world succame to the will of the dog, neutralizing the military of 117 countries in an afternoon. Now the dog lives an idyllic life, constantly bathed in attention.",
+                            "threeDice": {
+                              "animal": "",
+                              "weather": "",
+                              "rune": ""
+                            },
+                            "dialogueOptions": []
+                          }
+                        }
+                      ]
+
+                    }
+                  },
+                  {
+                    "playerResponse": "Yes, your owner will give you a many pats!",
+                    "karma": 0,
+                    "subTree": {
+                      "characterDialogue": [
+                        "Yip..! *whimper*",
+                        "(My Owner...?)",
+                        "hrrrr... *whimper*",
+                        "(I haven't had an owner in a long time...)",
+                        "Woof Woof!",
+                        "(Will I find a new owner?)"
+                      ],
+                      "outcome": null,
+                      "threeDice": {
+                        "animal": "wolf",
+                        "weather": "rain",
+                        "rune": "ehwan"
+                      },
+                      "dialogueOptions": [
+                        {
+                          "playerResponse": "Yes, but they will be dangerous!",
+                          "karma": 0,
+                          "subTree": {
+                            "characterDialogue": [
+                              "Yap! Woof Woof!",
+                              "(No no! Not another one!)",
+                              "Bark Bark!",
+                              "(Never again!)"
+                            ],
+                            "outcome": "The dog fled the tent, worried to have a cruel master once again. They ran far far away, finding shelter and solace amongst other animals of the street. The dog found happiness and comfort in being surrounded by new friends.",
+                            "threeDice": {
+                              "animal": "",
+                              "weather": "",
+                              "rune": ""
+                            },
+                            "dialogueOptions": []
+                          }
+                        },
+                        {
+                          "playerResponse": "Yes, you are looking at them!",
+                          "karma": 0,
+                          "subTree": {
+                            "characterDialogue": [
+                              "Bark Bark!!",
+                              "(Really? My new owner!)",
+                              "Woof Woof!",
+                              "(Shower me with pats!)",
+                              "*Happy Dog noises*",
+                              "(Pat Pet Pat!)"
+                            ],
+                            "outcome": "The Fortune Teller pampered the dog until they could be pampered no more. The dog was happy in their new home, licking the palms of all those that entered the Seer's tent.",
+                            "threeDice": {
+                              "animal": "",
+                              "weather": "",
+                              "rune": ""
+                            },
+                            "dialogueOptions": []
+                          }
+                        },
+                        {
+                          "playerResponse": "No, you shall never find an owner.",
+                          "karma": 0,
+                          "subTree": {
+                            "characterDialogue": [
+                              "Hrrr *Whimpering*",
+                              "(Will I never find pats and pets?)",
+                              "*Pant Pant* wuff...",
+                              "(Sad dog noises.)"
+                            ],
+                            "outcome": "The dog trailed out of the tent slowly, turning away all friendly faces that approached them. They wanted an owner to love them, yet they only found sadness in their loneliness.",
+                            "threeDice": {
+                              "animal": "",
+                              "weather": "",
+                              "rune": ""
+                            },
+                            "dialogueOptions": []
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "playerResponse": "You will get pets if you eat a rabbit on a windy day!",
+                    "karma": 0,
+                    "subTree": {
+                      "characterDialogue": [
+                        "Yap Yap Bark!",
+                        "(Oh Boy! Ima start hunting those rabbits!)",
+                        "Woof Woof Woof!",
+                        "(Thank you! Bark Bark)"
+                      ],
+                      "outcome": "And so the dog lept and bound, running all the way to a windy hill, to munch on some rabbits. The dog ate the rabbits, but they did not find any pats. They did find food poisoning though, and suffered a tummy ache for the rest of that week.",
+                      "threeDice": {
+                        "animal": "",
+                        "weather": "",
+                        "rune": ""
+                      },
+                      "dialogueOptions": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "playerResponse": "I dont know... you could have been more good.",
+              "karma": 0,
+              "subTree": {
+                "characterDialogue": [
+                  "Woof Woof!",
+                  "(Wait Wait! Let me have a chance to be more good!)",
+                  "Bark Bark Bark!",
+                  "(How can I be more good?)"
+                ],
+                "outcome": null,
+                "threeDice": {
+                  "animal": "bird",
+                  "weather": "snowy",
+                  "rune": "isa"
+                },
+                "dialogueOptions": [
+                  {
+                    "playerResponse": "You must act decisively!",
+                    "karma": 0,
+                    "subTree": {
+                      "characterDialogue": [
+                        "Woof Wuff!",
+                        "(Alright! I will! Thank you!)",
+                        "Bark Bark Bark!",
+                        "(Act decisive I will!)"
+                      ],
+                      "outcome": "And so the dog went to be decisive! On their travels the dog decisively barked at some birds, decisively ate somebody's snowcone, and decisively stopped a terrorist attack. He was awarded the Best Boy award, and got many pets.",
+                      "threeDice": {
+                        "animal": "",
+                        "weather": "",
+                        "rune": ""
+                      },
+                      "dialogueOptions": []
+                    }
+                  },
+                  {
+                    "playerResponse": "You must act peacefully!",
+                    "karma": 0,
+                    "subTree": {
+                      "characterDialogue": [
+                        "Woof Wuff!",
+                        "(Alright! I will! Thank you!)",
+                        "Bark Bark Bark!",
+                        "(Act peaceful I will!)"
+                      ],
+                      "outcome": "And so the dog went to be peaceful! On their travels the dog peacefully spoke to some birds, peacefully consumed a gifted snowcone, and peacefully prevented a terrorist attack. He was awarded the Best Boy award, and got many pets.",
+                      "threeDice": {
+                        "animal": "",
+                        "weather": "",
+                        "rune": ""
+                      },
+                      "dialogueOptions": []
+                    }
+                  },
+                  {
+                    "playerResponse": "You must... make peace with a bird in the snow!",
+                    "karma": 0,
+                    "subTree": {
+                      "characterDialogue": [
+                        "Wuuuuf Ruff!",
+                        "(Got it! I will find that bird in the snow!)",
+                        "Bark Bark Yap!",
+                        "(Dat bird better be ready to be peaced!)",
+                        "*Energetic dog noises*"
+                      ],
+                      "outcome": "And so the dog searched for a bird in the snow. They searched and searched. First they went to the end of the road, when they got there they ran to the end of the road, then they got there they ran all across the county, then they figured they would run across all of the country.",
+                      "threeDice": {
+                        "animal": "",
+                        "weather": "",
+                        "rune": ""
+                      },
+                      "dialogueOptions": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "playerResponse": "No! You have been a bad boy!",
+              "karma": 0,
+              "subTree": {
+                "characterDialogue": [
+                  "Hrrrmmm *Whimper* *Whimper*",
+                  "(I don't want to be a bad boy...)",
+                  "Wuuuuf! Wuff! Woof!",
+                  "(Will I ever become da goodest boy?)"
+                ],
+                "outcome": null,
+                "threeDice": {
+                  "animal": "frog",
+                  "weather": "sunny",
+                  "rune": "fo-un"
+                },
+                "dialogueOptions": [
+                  {
+                    "playerResponse": "Yes! You will develop into the best boy!",
+                    "karma": 0,
+                    "subTree": {
+                      "characterDialogue": [
+                        "Bark Bark!",
+                        "(Oh Yes! I am da good boy!)",
+                        "Woof woof woof!",
+                        "(I will grow and change to be the bestest!)"
+                      ],
+                      "outcome": "The dog tried their bestest, but their bestest was never enough. It wasn't long before the dog turned to hard drugs. There, the dog and Walter White formed the largest drug empire in Colorado, truly living up to the name Snoop Dog.",
+                      "threeDice": {
+                        "animal": "",
+                        "weather": "",
+                        "rune": ""
+                      },
+                      "dialogueOptions": []
+                    }
+                  },
+                  {
+                    "playerResponse": "No... because you are already the best boy!",
+                    "karma": 0,
+                    "subTree": {
+                      "characterDialogue": [
+                        "Wuff wuff woof!!",
+                        "(Woof Woof! I am the best boy!)",
+                        "Bark Yap Yap",
+                        "(Why did you lie and say I had been a bad boy...)",
+                        "Woof!",
+                        "(Dog head hurty...)",
+                        "Woof... Grrrrrrr",
+                        "(The fortune telling... it must be a scam!)"
+                      ],
+                      "outcome": null,
+                      "threeDice": {
+                        "animal": "wolf",
+                        "weather": "lightning",
+                        "rune": "ehwan"
+                      },
+                      "dialogueOptions": [
+                        {
+                          "playerResponse": "The dice tells me... I will be mauled by a wolf?",
+                          "karma": 0,
+                          "subTree": {
+                            "characterDialogue": [
+                              "GRRRR WOOF WOOF!",
+                              "(Close enough.)",
+                              "BARK BARK BARK BARK!"
+                            ],
+                            "outcome": "The dog mauled the Fortune Teller to prevent them from scamming anymore people. They truly were the goodest boy.",
+                            "threeDice": {
+                              "animal": "",
+                              "weather": "",
+                              "rune": ""
+                            },
+                            "dialogueOptions": []
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+    ]
+}

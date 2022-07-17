@@ -1,19 +1,24 @@
 {
-    "allCharacterInfo": [
-        {
-            "name": "man1",
-            "spritePath": "Sprites/Images/man1",
-            "dialoguePath": "Dialogue/man1-dialogue"
-        },
-        {
-            "name": "woman1",
-            "spritePath": "Sprites/Images/woman1",
-            "dialoguePath": "Dialogue/woman1-dialogue"
-        },
-        {
-            "name": "?????",
-            "spritePath": "Sprites/Images/frog1",
-            "dialoguePath": "Dialogue/frog1-dialogue"
-        }
-    ]
+  "allCharacterInfo": [
+    {
+      "name": "Dog",
+      "spritePath": "Sprites/Images/dog1",
+      "dialoguePath": "Dialogue/dog1-dialogue"
+    },
+    {
+      "name": "man1",
+      "spritePath": "Sprites/Images/man1",
+      "dialoguePath": "Dialogue/man1-dialogue"
+    },
+    {
+      "name": "woman1",
+      "spritePath": "Sprites/Images/woman1",
+      "dialoguePath": "Dialogue/woman1-dialogue"
+    },
+    {
+      "name": "?????",
+      "spritePath": "Sprites/Images/frog1",
+      "dialoguePath": "Dialogue/frog1-dialogue"
+    }
+  ]
 }
