@@ -10,7 +10,7 @@
             "outcome": null,
             "threeDice": {
                 "animal": "fish",
-                "weather": "sunny",
+                "weather": "sun",
                 "rune": "aangor"
             },
           "dialogueOptions": [
@@ -31,7 +31,7 @@
                 "outcome": null,
                 "threeDice": {
                   "animal": "rabbit",
-                  "weather": "windy",
+                  "weather": "wind",
                   "rune": "akhon"
                 },
                 "dialogueOptions": [
