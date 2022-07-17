@@ -99,7 +99,7 @@
                                     "weather": "frog",
                                     "rune": "frog"
                                 },
-                                "dialogueOptions": {
+                                "dialogueOptions": [{
                                     "playerResponse": "Croaaaaaaaaak.",
                                     "karma": 0,
                                     "subTree": {
@@ -112,7 +112,7 @@
                                         },
                                         "dialogueOptions": []
                                     }
-                                }
+                                }]
                             }
                         },{
                             "playerResponse": "No thanks, I do not wish to be minty fresh.",
